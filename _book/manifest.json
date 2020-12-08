@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "locale": "C",
+  "platform": "4.0.3",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "index.html",
+    "content_category": "site",
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "applications.html": {
+      "checksum": "a763154275e753930402aba35a46e0f1"
+    },
+    "bookdown-demo_files/figure-html/nice-fig-1.png": {
+      "checksum": "e1602eafeb3028c2935341fb230a64d2"
+    },
+    "final-words.html": {
+      "checksum": "e90258ea98ab579484da1b69263d7458"
+    },
+    "index.html": {
+      "checksum": "dd1e3d3fdcbb001ca3252ebc35cad81e"
+    },
+    "intro.html": {
+      "checksum": "c41674e217a21f6e241800b2cda08975"
+    },
+    "libs/anchor-sections-1.0/anchor-sections.css": {
+      "checksum": "98f11fa7f3ce7ed9fdda176360682403"
+    },
+    "libs/anchor-sections-1.0/anchor-sections.js": {
+      "checksum": "35155fd1c913543974de3b2fd81e7fbd"
+    },
+    "libs/gitbook-2.6.7/css/fontawesome/fontawesome-webfont.ttf": {
+      "checksum": "b06871f281fee6b241d60582ae9369b9"
+    },
+    "libs/gitbook-2.6.7/css/plugin-bookdown.css": {
+      "checksum": "688a5fc6093e91fc81ea43d14b53f811"
+    },
+    "libs/gitbook-2.6.7/css/plugin-clipboard.css": {
+      "checksum": "e4a3bdc1e3d5590f47cbac67976f3961"
+    },
+    "libs/gitbook-2.6.7/css/plugin-fontsettings.css": {
+      "checksum": "76af8c23a8138a4b66aa6959ca5c3a8e"
+    },
+    "libs/gitbook-2.6.7/css/plugin-highlight.css": {
+      "checksum": "467fbe4b6b5a4b88fdd75c463f8626ec"
+    },
+    "libs/gitbook-2.6.7/css/plugin-search.css": {
+      "checksum": "0d7a6bb6a50e00c7358cf61027f099f0"
+    },
+    "libs/gitbook-2.6.7/css/plugin-table.css": {
+      "checksum": "8cb82f94ce1446fa4bafe7a3933e6c65"
+    },
+    "libs/gitbook-2.6.7/css/style.css": {
+      "checksum": "11f13a161c95d0e8257d673dc27f9251"
+    },
+    "libs/gitbook-2.6.7/js/app.min.js": {
+      "checksum": "395a8093ce46450cabfaa545a0705a3b"
+    },
+    "libs/gitbook-2.6.7/js/clipboard.min.js": {
+      "checksum": "be72101c8c16ba95fd8b69760d5ebc56"
+    },
+    "libs/gitbook-2.6.7/js/jquery.highlight.js": {
+      "checksum": "999424d32e03b9857098d2c7f53928c2"
+    },
+    "libs/gitbook-2.6.7/js/lunr.js": {
+      "checksum": "fbc747c6143aabb39b0ea7c0524b7057"
+    },
+    "libs/gitbook-2.6.7/js/plugin-bookdown.js": {
+      "checksum": "36b5487b9c1020c0de1352b8f26b8a8e"
+    },
+    "libs/gitbook-2.6.7/js/plugin-clipboard.js": {
+      "checksum": "a30f95fcd3fde10637ace1fb691b7475"
+    },
+    "libs/gitbook-2.6.7/js/plugin-fontsettings.js": {
+      "checksum": "4f57689705fdfa3eabfb7b7b92614f33"
+    },
+    "libs/gitbook-2.6.7/js/plugin-search.js": {
+      "checksum": "2d4c4d47ba34946b8ebcbe41aa522756"
+    },
+    "libs/gitbook-2.6.7/js/plugin-sharing.js": {
+      "checksum": "799a983ef24c1cbe315d020a65aa1644"
+    },
+    "libs/header-attrs-2.5/header-attrs.js": {
+      "checksum": "9c32b58ed5fd8fe2efbd5bd7023cdef0"
+    },
+    "libs/jquery-2.2.3/jquery.min.js": {
+      "checksum": "33cabfa15c1060aaa3d207c653afb1ee"
+    },
+    "literature.html": {
+      "checksum": "05dbae1b156a9e7c96179fc3609c1a1e"
+    },
+    "methods.html": {
+      "checksum": "8827b5f821051b3a462051804214f9a3"
+    },
+    "reference-keys.txt": {
+      "checksum": "d57ab79106d3fd3f5dd8c4d143d6626e"
+    },
+    "references.html": {
+      "checksum": "5d03e5f65c8b47fe58f3d8a67bbcf348"
+    },
+    "search_index.json": {
+      "checksum": "74c7b81e20b281f4652fa4443d5d6b4c"
+    },
+    "style.css": {
+      "checksum": "19f0b33dc27d4f748874d2cde5cea5bc"
+    }
+  },
+  "users": null
+}
