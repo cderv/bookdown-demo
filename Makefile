@@ -1,4 +1,4 @@
 all:
 		rm -rf _bookdown_files
-		mv _book/* .
+		cp -r _book/* .
 		rm -rf _book
