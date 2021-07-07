@@ -3,6 +3,7 @@ tab:nice-tab
 prerequisites
 intro
 literature
+indented-text-can-be-used-this-way
 methods
 math-example
 applications
