@@ -35,9 +35,9 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.41",
+      "Version": "0.42",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "P3M",
       "Requirements": [
         "R",
         "htmltools",
@@ -48,7 +48,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "d8b74e267a5774ded5c91786d6d777bb"
+      "Hash": "90963be120796226223d361b3e6c362a"
     },
     "brio": {
       "Package": "brio",
@@ -152,7 +152,7 @@
       "Package": "evaluate",
       "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "P3M",
       "Requirements": [
         "R"
       ],
@@ -332,7 +332,7 @@
       "Package": "rlang",
       "Version": "1.1.5",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "P3M",
       "Requirements": [
         "R",
         "utils"
@@ -414,21 +414,16 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.50.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "xfun",
-      "RemoteUsername": "yihui",
-      "RemotePkgRef": "yihui/xfun",
-      "RemoteSha": "a840eb1fdf97b6c61caaa94b3772d36faafbbb9b",
+      "Version": "0.50",
+      "Source": "Repository",
+      "Repository": "P3M",
       "Requirements": [
         "R",
         "grDevices",
         "stats",
         "tools"
       ],
-      "Hash": "7a3e9af30e535472bc6b6b9317cb1790"
+      "Hash": "44ab88837d3f8dfc66a837299b887fa6"
     },
     "xml2": {
       "Package": "xml2",

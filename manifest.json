@@ -29,9 +29,10 @@
         "Packaged": "2021-08-06 20:18:46 UTC; winston",
         "Author": "Winston Chang [aut, cre]",
         "Maintainer": "Winston Chang <winston@stdout.org>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2021-08-19 14:00:05 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 01:23:29 UTC; windows"
+        "Encoding": "UTF-8",
+        "Built": "R 4.4.0; ; 2024-04-25 19:39:56 UTC; windows"
       }
     },
     "base64enc": {
@@ -50,16 +51,15 @@
         "URL": "http://www.rforge.net/base64enc",
         "NeedsCompilation": "yes",
         "Packaged": "2015-02-04 20:31:00 UTC; svnuser",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2015-07-28 08:03:37",
-        "Encoding": "UTF-8",
-        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 19:47:47 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-23 00:24:00 UTC; windows",
         "Archs": "x64",
         "RemoteType": "standard",
         "RemotePkgRef": "base64enc",
         "RemoteRef": "base64enc",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteRepos": "https://cran.rstudio.com/",
+        "RemotePkgType": "windows",
         "RemoteSha": "0.1-3"
       }
     },
@@ -70,7 +70,7 @@
         "Package": "bookdown",
         "Type": "Package",
         "Title": "Authoring Books and Technical Documents with R Markdown",
-        "Version": "0.41",
+        "Version": "0.42",
         "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Christophe\", \"Dervieux\", , \"cderv@posit.co\", role = c(\"ctb\"),\n           comment = c(ORCID = \"0000-0003-4474-2498\")),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Albert\", \"Kim\", role = \"ctb\"),\n    person(\"Alessandro\", \"Samuel-Rosa\", role = \"ctb\"),\n    person(\"Andrzej\", \"Oles\", role = \"ctb\"),\n    person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n    person(\"Aust\", \"Frederik\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n    person(\"Bastiaan\", \"Quast\", role = \"ctb\"),\n    person(\"Ben\", \"Marwick\", role = \"ctb\"),\n    person(\"Chester\", \"Ismay\", role = \"ctb\"),\n    person(\"Clifton\", \"Franklund\", role = \"ctb\"),\n    person(\"Daniel\", \"Emaasit\", role = \"ctb\"),\n    person(\"David\", \"Shuman\", role = \"ctb\"),\n    person(\"Dean\", \"Attali\", role = \"ctb\"),\n    person(\"Drew\", \"Tyre\", role = \"ctb\"),\n    person(\"Ellis\", \"Valentiner\", role = \"ctb\"),\n    person(\"Frans\", \"van Dunne\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Jeff\", \"Allen\", role = \"ctb\"),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\"),\n    person(\"Jonathan\", \"McPhers\", role = \"ctb\"),\n    person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n    person(\"Joyce\", \"Robbins\", role = \"ctb\"),\n    person(\"Junwen\", \"Huang\", role = \"ctb\"),\n    person(\"Kevin\", \"Cheung\", role = \"ctb\"),\n    person(\"Kevin\", \"Ushey\", role = \"ctb\"),\n    person(\"Kim\", \"Seonghyun\", role = \"ctb\"),\n    person(\"Kirill\", \"Muller\", role = \"ctb\"),\n    person(\"Luciano\", \"Selzer\", role = \"ctb\"),\n    person(\"Matthew\", \"Lincoln\", role = \"ctb\"),\n    person(\"Maximilian\", \"Held\", role = \"ctb\"),\n    person(\"Michael\", \"Sachs\", role = \"ctb\"),\n    person(\"Michal\", \"Bojanowski\", role = \"ctb\"),\n    person(\"Nathan\", \"Werth\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Peter\", \"Hickey\", role = \"ctb\"),\n    person(\"Pedro Rafael D.\", \"Marinho\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1591-8300\")),\n    person(\"Romain\", \"Lesur\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0721-5595\")),\n    person(\"Sahir\", \"Bhatnagar\", role = \"ctb\"),\n    person(\"Shir\", \"Dekel\", role = \"ctb\", comment = c(ORCID = \"0000-0003-1773-2446\")),\n    person(\"Steve\", \"Simpson\", role = \"ctb\"),\n    person(\"Thierry\", \"Onkelinx\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n    person(\"Vincent\", \"Fulco\", role = \"ctb\"),\n    person(\"Yixuan\", \"Qiu\", role = \"ctb\"),\n    person(\"Zhuoer\", \"Dong\", role = \"ctb\"),\n    person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"Bartek\", \"Szopka\", role = \"ctb\", comment = \"The jQuery Highlight plugin\"),\n    person(\"Zeno\", \"Rocha\", role = \"cph\", comment = \"clipboard.js library\"),\n    person(family = \"MathQuill contributors\", role = \"ctb\", comment = \"The MathQuill library; authors listed in inst/resources/AUTHORS\"),\n    person(family = \"FriendCode Inc\", role = c(\"cph\", \"ctb\"), comment = \"The gitbook style, with modifications\")\n    )",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Description": "Output formats and utilities for authoring books and technical documents with R Markdown.",
@@ -88,17 +88,18 @@
         "Config/testthat/edition": "3",
         "VignetteBuilder": "knitr",
         "NeedsCompilation": "no",
-        "Packaged": "2024-10-15 19:55:50 UTC; yihui",
+        "Packaged": "2025-01-07 14:48:34 UTC; runner",
         "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  JJ Allaire [ctb],\n  Albert Kim [ctb],\n  Alessandro Samuel-Rosa [ctb],\n  Andrzej Oles [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Aust Frederik [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Bastiaan Quast [ctb],\n  Ben Marwick [ctb],\n  Chester Ismay [ctb],\n  Clifton Franklund [ctb],\n  Daniel Emaasit [ctb],\n  David Shuman [ctb],\n  Dean Attali [ctb],\n  Drew Tyre [ctb],\n  Ellis Valentiner [ctb],\n  Frans van Dunne [ctb],\n  Hadley Wickham [ctb],\n  Jeff Allen [ctb],\n  Jennifer Bryan [ctb],\n  Jonathan McPhers [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Joyce Robbins [ctb],\n  Junwen Huang [ctb],\n  Kevin Cheung [ctb],\n  Kevin Ushey [ctb],\n  Kim Seonghyun [ctb],\n  Kirill Muller [ctb],\n  Luciano Selzer [ctb],\n  Matthew Lincoln [ctb],\n  Maximilian Held [ctb],\n  Michael Sachs [ctb],\n  Michal Bojanowski [ctb],\n  Nathan Werth [ctb],\n  Noam Ross [ctb],\n  Peter Hickey [ctb],\n  Pedro Rafael D. Marinho [ctb] (<https://orcid.org/0000-0003-1591-8300>),\n  Romain Lesur [ctb] (<https://orcid.org/0000-0002-0721-5595>),\n  Sahir Bhatnagar [ctb],\n  Shir Dekel [ctb] (<https://orcid.org/0000-0003-1773-2446>),\n  Steve Simpson [ctb],\n  Thierry Onkelinx [ctb] (<https://orcid.org/0000-0001-8804-4216>),\n  Vincent Fulco [ctb],\n  Yixuan Qiu [ctb],\n  Zhuoer Dong [ctb],\n  Posit Software, PBC [cph, fnd],\n  Bartek Szopka [ctb] (The jQuery Highlight plugin),\n  Zeno Rocha [cph] (clipboard.js library),\n  MathQuill contributors [ctb] (The MathQuill library; authors listed in\n    inst/resources/AUTHORS),\n  FriendCode Inc [cph, ctb] (The gitbook style, with modifications)",
         "Repository": "RSPM",
-        "Date/Publication": "2024-10-16 00:20:01 UTC",
-        "Built": "R 4.4.0; ; 2024-10-16 11:18:40 UTC; windows",
+        "Date/Publication": "2025-01-07 16:00:07 UTC",
+        "Built": "R 4.4.0; ; 2025-01-08 04:43:36 UTC; windows",
         "RemoteType": "standard",
         "RemotePkgRef": "bookdown",
         "RemoteRef": "bookdown",
         "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.41"
+        "RemoteReposName": "P3M",
+        "RemotePkgPlatform": "x86_64-w64-mingw32",
+        "RemoteSha": "0.42"
       }
     },
     "brio": {
@@ -126,13 +127,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2024-04-24 19:20:07 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 19:45:27 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "brio",
-        "RemoteRef": "brio",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.1.5"
+        "Archs": "x64"
       }
     },
     "bslib": {
@@ -165,13 +160,7 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-07-29 19:20:02 UTC",
-        "Built": "R 4.4.0; ; 2024-07-30 04:32:16 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "bslib",
-        "RemoteRef": "bslib",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.8.0"
+        "Built": "R 4.4.0; ; 2024-07-30 04:32:16 UTC; windows"
       }
     },
     "cachem": {
@@ -199,13 +188,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2024-05-16 09:50:11 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-05-17 04:03:28 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "cachem",
-        "RemoteRef": "cachem",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.1.0"
+        "Archs": "x64"
       }
     },
     "cli": {
@@ -231,9 +214,9 @@
         "Packaged": "2024-06-21 17:24:00 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-06-21 21:00:07 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:29 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-06-22 04:44:10 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -262,9 +245,9 @@
         "NeedsCompilation": "no",
         "Packaged": "2023-12-10 11:07:50 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>),\n  Posit Software, PBC [cph, fnd]",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2023-12-10 11:40:08 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 02:06:38 UTC; windows"
+        "Built": "R 4.4.0; ; 2024-04-25 20:05:06 UTC; windows"
       }
     },
     "digest": {
@@ -289,9 +272,9 @@
         "Packaged": "2024-08-19 12:16:05 UTC; edd",
         "Author": "Dirk Eddelbuettel [aut, cre] (<https://orcid.org/0000-0001-6419-907X>),\n  Antoine Lucas [ctb],\n  Jarek Tuszynski [ctb],\n  Henrik Bengtsson [ctb] (<https://orcid.org/0000-0002-7579-5165>),\n  Simon Urbanek [ctb] (<https://orcid.org/0000-0003-2297-1732>),\n  Mario Frasca [ctb],\n  Bryan Lewis [ctb],\n  Murray Stokely [ctb],\n  Hannes Muehleisen [ctb],\n  Duncan Murdoch [ctb],\n  Jim Hester [ctb],\n  Wush Wu [ctb] (<https://orcid.org/0000-0001-5180-0567>),\n  Qiang Kou [ctb] (<https://orcid.org/0000-0001-6786-5453>),\n  Thierry Onkelinx [ctb] (<https://orcid.org/0000-0001-8804-4216>),\n  Michel Lang [ctb] (<https://orcid.org/0000-0001-9754-0393>),\n  Viliam Simko [ctb],\n  Kurt Hornik [ctb] (<https://orcid.org/0000-0003-4198-9911>),\n  Radford Neal [ctb] (<https://orcid.org/0000-0002-2473-3407>),\n  Kendon Bell [ctb] (<https://orcid.org/0000-0002-9093-8312>),\n  Matthew de Queljoe [ctb],\n  Dmitry Selivanov [ctb],\n  Ion Suruceanu [ctb],\n  Bill Denney [ctb],\n  Dirk Schumacher [ctb],\n  András Svraka [ctb],\n  Sergey Fedorov [ctb],\n  Will Landau [ctb] (<https://orcid.org/0000-0003-1878-3253>),\n  Floris Vanderhaeghe [ctb] (<https://orcid.org/0000-0002-6378-6229>),\n  Kevin Tappe [ctb],\n  Harris McGehee [ctb],\n  Tim Mastny [ctb],\n  Aaron Peikert [ctb] (<https://orcid.org/0000-0001-7813-818X>),\n  Mark van der Loo [ctb] (<https://orcid.org/0000-0002-9807-4686>),\n  Chris Muir [ctb] (<https://orcid.org/0000-0003-2555-3878>),\n  Moritz Beller [ctb] (<https://orcid.org/0000-0003-4852-0526>),\n  Sebastian Campbell [ctb],\n  Winston Chang [ctb] (<https://orcid.org/0000-0002-1576-2126>),\n  Dean Attali [ctb] (<https://orcid.org/0000-0002-5645-3493>),\n  Michael Chirico [ctb] (<https://orcid.org/0000-0003-0787-087X>),\n  Kevin Ushey [ctb]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-08-19 14:10:07 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:29 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-08-20 04:36:33 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -349,11 +332,12 @@
         "Repository": "RSPM",
         "Date/Publication": "2025-01-10 23:00:02 UTC",
         "Built": "R 4.4.0; ; 2025-01-11 04:49:01 UTC; windows",
-        "RemoteType": "cran",
-        "RemotePkgRef": "cran::evaluate",
-        "RemoteRef": "cran::evaluate",
+        "RemoteType": "standard",
+        "RemotePkgRef": "evaluate",
+        "RemoteRef": "evaluate",
         "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteReposName": "P3M",
+        "RemotePkgPlatform": "x86_64-w64-mingw32",
         "RemoteSha": "1.0.3"
       }
     },
@@ -383,13 +367,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2023-12-08 03:30:02 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 19:43:50 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "fansi",
-        "RemoteRef": "fansi",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.0.6"
+        "Archs": "x64"
       }
     },
     "fastmap": {
@@ -414,13 +392,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2024-05-15 09:00:07 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-05-16 04:50:06 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "fastmap",
-        "RemoteRef": "fastmap",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.2.0"
+        "Archs": "x64"
       }
     },
     "fontawesome": {
@@ -449,13 +421,7 @@
         "Maintainer": "Richard Iannone <rich@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-11-16 17:30:02 UTC",
-        "Built": "R 4.4.0; ; 2024-11-17 04:34:02 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "fontawesome",
-        "RemoteRef": "fontawesome",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.5.3"
+        "Built": "R 4.4.0; ; 2024-11-17 04:34:02 UTC; windows"
       }
     },
     "fs": {
@@ -486,9 +452,9 @@
         "Packaged": "2024-10-28 22:30:40 UTC; gaborcsardi",
         "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-10-30 08:40:02 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:33 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-10-31 04:27:47 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -517,9 +483,9 @@
         "Packaged": "2024-09-27 16:00:45 UTC; jenny",
         "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Jennifer Bryan <jenny@posit.co>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-09-30 22:30:01 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:29 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-10-01 04:41:41 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -546,9 +512,9 @@
         "Packaged": "2024-05-26 19:27:21 UTC; yihui",
         "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Yixuan Qiu [aut],\n  Christopher Gandrud [ctb],\n  Qiang Li [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-05-26 20:00:03 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 02:06:37 UTC; windows"
+        "Built": "R 4.4.0; ; 2024-05-27 04:10:12 UTC; windows"
       }
     },
     "htmltools": {
@@ -580,13 +546,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2024-04-04 05:03:00 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 20:21:37 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "htmltools",
-        "RemoteRef": "htmltools",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.5.8.1"
+        "Archs": "x64"
       }
     },
     "jquerylib": {
@@ -610,13 +570,7 @@
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-04-26 17:10:02 UTC",
-        "Built": "R 4.4.0; ; 2024-04-25 20:49:43 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "jquerylib",
-        "RemoteRef": "jquerylib",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.1.4"
+        "Built": "R 4.4.0; ; 2024-04-25 20:49:43 UTC; windows"
       }
     },
     "jsonlite": {
@@ -640,9 +594,9 @@
         "NeedsCompilation": "yes",
         "Packaged": "2024-09-19 15:41:06 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-09-20 08:40:14 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:29 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-09-21 04:50:29 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -673,13 +627,7 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2024-11-08 09:30:02 UTC",
-        "Built": "R 4.4.0; ; 2024-11-09 04:40:32 UTC; windows",
-        "RemoteType": "cran",
-        "RemotePkgRef": "cran::knitr",
-        "RemoteRef": "cran::knitr",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.49"
+        "Built": "R 4.4.0; ; 2024-11-09 04:40:32 UTC; windows"
       }
     },
     "lifecycle": {
@@ -706,9 +654,9 @@
         "Packaged": "2023-11-06 16:07:36 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2023-11-07 10:10:10 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 02:06:35 UTC; windows"
+        "Built": "R 4.4.0; ; 2024-04-25 20:06:30 UTC; windows"
       }
     },
     "memoise": {
@@ -733,13 +681,7 @@
         "Maintainer": "Winston Chang <winston@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-11-26 16:11:10 UTC",
-        "Built": "R 4.4.0; ; 2024-04-25 20:09:40 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "memoise",
-        "RemoteRef": "memoise",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "2.0.1"
+        "Built": "R 4.4.0; ; 2024-04-25 20:09:40 UTC; windows"
       }
     },
     "mime": {
@@ -765,13 +707,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2021-09-28 05:00:05 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 19:47:07 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "mime",
-        "RemoteRef": "mime",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.12"
+        "Archs": "x64"
       }
     },
     "rappdirs": {
@@ -797,15 +733,15 @@
         "Packaged": "2021-01-28 22:29:57 UTC; hadley",
         "Author": "Hadley Wickham [trl, cre, cph],\n  RStudio [cph],\n  Sridhar Ratnakumar [aut],\n  Trent Mick [aut],\n  ActiveState [cph] (R/appdir.r, R/cache.r, R/data.r, R/log.r translated\n    from appdirs),\n  Eddy Petrisor [ctb],\n  Trevor Davis [trl, aut],\n  Gabor Csardi [ctb],\n  Gregory Jefferis [ctb]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-01-31 05:40:02 UTC",
-        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 19:39:40 UTC; windows",
+        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-03 01:28:57 UTC; windows",
         "Archs": "x64",
         "RemoteType": "standard",
         "RemotePkgRef": "rappdirs",
         "RemoteRef": "rappdirs",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteRepos": "https://cran.rstudio.com/",
+        "RemotePkgType": "windows",
         "RemoteSha": "0.3.3"
       }
     },
@@ -880,7 +816,8 @@
         "RemotePkgRef": "rlang",
         "RemoteRef": "rlang",
         "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteReposName": "P3M",
+        "RemotePkgPlatform": "x86_64-w64-mingw32",
         "RemoteSha": "1.1.5"
       }
     },
@@ -912,13 +849,7 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2024-11-04 12:30:09 UTC",
-        "Built": "R 4.4.0; ; 2024-11-05 04:51:53 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "rmarkdown",
-        "RemoteRef": "rmarkdown",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "2.29"
+        "Built": "R 4.4.0; ; 2024-11-05 04:51:53 UTC; windows"
       }
     },
     "sass": {
@@ -948,13 +879,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2024-03-15 22:30:02 UTC",
         "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 20:26:56 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "sass",
-        "RemoteRef": "sass",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.4.9"
+        "Archs": "x64"
       }
     },
     "tinytex": {
@@ -980,13 +905,7 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2024-11-01 15:10:02 UTC",
-        "Built": "R 4.4.0; ; 2024-11-02 04:31:24 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "tinytex",
-        "RemoteRef": "tinytex",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "0.54"
+        "Built": "R 4.4.0; ; 2024-11-02 04:31:24 UTC; windows"
       }
     },
     "vctrs": {
@@ -1014,9 +933,9 @@
         "Packaged": "2023-12-01 16:27:12 UTC; davis",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Davis Vaughan [aut, cre],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2023-12-01 23:50:02 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 02:20:59 UTC; windows",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-04-25 20:13:49 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -1045,20 +964,20 @@
         "Packaged": "2024-10-28 10:58:18 UTC; lionel",
         "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-10-28 13:30:02 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 01:23:30 UTC; windows"
+        "Built": "R 4.4.0; ; 2024-10-29 04:34:54 UTC; windows"
       }
     },
     "xfun": {
-      "Source": "github",
-      "Repository": null,
+      "Source": "P3M",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "xfun",
         "Type": "Package",
         "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
-        "Version": "0.50.1",
-        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\", URL = \"https://yihui.org\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
+        "Version": "0.50",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
         "Depends": "R (>= 3.2.0)",
         "Imports": "grDevices, stats, tools",
@@ -1069,24 +988,21 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.2",
         "VignetteBuilder": "litedown",
-        "Roxygen": "list(markdown = TRUE)",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "xfun",
-        "RemoteUsername": "yihui",
-        "RemotePkgRef": "yihui/xfun",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "a840eb1fdf97b6c61caaa94b3772d36faafbbb9b",
-        "GithubRepo": "xfun",
-        "GithubUsername": "yihui",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "a840eb1fdf97b6c61caaa94b3772d36faafbbb9b",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-01-08 14:05:45 UTC; chris",
-        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>,\n    https://yihui.org),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
+        "Packaged": "2025-01-07 14:01:22 UTC; runner",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2025-01-08 14:05:45 UTC; windows",
-        "Archs": "x64"
+        "Repository": "RSPM",
+        "Date/Publication": "2025-01-07 15:20:02 UTC",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2025-01-08 04:33:04 UTC; windows",
+        "Archs": "x64",
+        "RemoteType": "standard",
+        "RemotePkgRef": "xfun",
+        "RemoteRef": "xfun",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteReposName": "P3M",
+        "RemotePkgPlatform": "x86_64-w64-mingw32",
+        "RemoteSha": "0.50"
       }
     },
     "xml2": {
@@ -1139,9 +1055,10 @@
         "BugReports": "https://github.com/vubiostat/r-yaml/issues",
         "NeedsCompilation": "yes",
         "Packaged": "2024-07-22 15:44:18 UTC; garbetsp",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-07-26 15:10:02 UTC",
-        "Built": "R 4.4.1; x86_64-w64-mingw32; 2024-10-05 00:28:46 UTC; windows",
+        "Encoding": "UTF-8",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2024-07-27 04:42:17 UTC; windows",
         "Archs": "x64"
       }
     }
@@ -1151,7 +1068,7 @@
       "checksum": "ae3e4bb73bfc8f608c6f0b4e05bfc185"
     },
     ".Rprofile": {
-      "checksum": "7aeabda101db473c8a31e46ba7832f92"
+      "checksum": "654cd5b6c1fc55ebfb12ad2a0f87bcd1"
     },
     ".travis.yml": {
       "checksum": "1d1a9755c48e657957308c5416471f56"
@@ -1340,7 +1257,7 @@
       "checksum": "68d05c8cbb6ec2384275047db3930351"
     },
     "DESCRIPTION": {
-      "checksum": "1cede1f85e3b692a1313552b2c5b36c8"
+      "checksum": "a09bad3acccdf0d8a134c6e27156b851"
     },
     "Dockerfile": {
       "checksum": "a74b14f585be942c4a459b08ae21d5d3"
@@ -1364,7 +1281,7 @@
       "checksum": "d5432cb7143a49d5e1700d3aaa79b88b"
     },
     "renv.lock": {
-      "checksum": "4627cdcc9ba7591f3308d6c2208de2e7"
+      "checksum": "3c86e3dda3588d29562595ef4b83a0ab"
     },
     "style.css": {
       "checksum": "0685a61954d17298eb8a27d7f3e4e8ae"
