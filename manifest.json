@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "locale": "en_US",
+  "locale": "fr_FR",
   "platform": "4.4.2",
   "metadata": {
     "appmode": "rmd-static",
     "primary_rmd": "index.Rmd",
     "primary_html": null,
-    "content_category": null,
+    "content_category": "site",
     "has_parameters": false
   },
   "packages": {
@@ -238,31 +238,31 @@
         "Type": "Package",
         "Package": "evaluate",
         "Title": "Parsing and Evaluation Tools that Provide More Details than the\nDefault",
-        "Version": "1.0.1",
+        "Version": "1.0.3",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Yihui\", \"Xie\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Michael\", \"Lawrence\", role = \"ctb\"),\n    person(\"Thomas\", \"Kluyver\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Adam\", \"Ryczkowski\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Michel\", \"Lang\", role = \"ctb\"),\n    person(\"Karolis\", \"Koncevičius\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Parsing and evaluation tools that make it easy to recreate\n    the command line behaviour of R.",
         "License": "MIT + file LICENSE",
         "URL": "https://evaluate.r-lib.org/, https://github.com/r-lib/evaluate",
         "BugReports": "https://github.com/r-lib/evaluate/issues",
         "Depends": "R (>= 3.6.0)",
-        "Suggests": "covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat\n(>= 3.0.0), withr",
+        "Suggests": "callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload,\nrlang, knitr, testthat (>= 3.0.0), withr",
         "Config/Needs/website": "tidyverse/tidytemplate",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.2",
         "NeedsCompilation": "no",
-        "Packaged": "2024-10-10 12:56:22 UTC; hadleywickham",
+        "Packaged": "2025-01-10 22:27:28 UTC; hadleywickham",
         "Author": "Hadley Wickham [aut, cre],\n  Yihui Xie [aut] (<https://orcid.org/0000-0003-0645-5666>),\n  Michael Lawrence [ctb],\n  Thomas Kluyver [ctb],\n  Jeroen Ooms [ctb],\n  Barret Schloerke [ctb],\n  Adam Ryczkowski [ctb],\n  Hiroaki Yutani [ctb],\n  Michel Lang [ctb],\n  Karolis Koncevičius [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
-        "Date/Publication": "2024-10-10 13:20:02 UTC",
-        "Built": "R 4.4.0; ; 2024-10-11 04:30:26 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "evaluate",
-        "RemoteRef": "evaluate",
+        "Date/Publication": "2025-01-10 23:00:02 UTC",
+        "Built": "R 4.4.0; ; 2025-01-11 04:49:01 UTC; windows",
+        "RemoteType": "cran",
+        "RemotePkgRef": "cran::evaluate",
+        "RemoteRef": "cran::evaluate",
         "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
-        "RemoteSha": "1.0.1"
+        "RemoteSha": "1.0.3"
       }
     },
     "fastmap": {
@@ -520,7 +520,7 @@
       }
     },
     "knitr": {
-      "Source": "CRAN",
+      "Source": "P3M",
       "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "knitr",
@@ -544,9 +544,15 @@
         "Packaged": "2024-11-06 23:10:53 UTC; runner",
         "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Abhraneel Sarma [ctb],\n  Adam Vogt [ctb],\n  Alastair Andrew [ctb],\n  Alex Zvoleff [ctb],\n  Amar Al-Zubaidi [ctb],\n  Andre Simon [ctb] (the CSS files under inst/themes/ were derived from\n    the Highlight package http://www.andre-simon.de),\n  Aron Atkins [ctb],\n  Aaron Wolen [ctb],\n  Ashley Manton [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Ben Baumer [ctb],\n  Brian Diggs [ctb],\n  Brian Zhang [ctb],\n  Bulat Yapparov [ctb],\n  Cassio Pereira [ctb],\n  Christophe Dervieux [ctb],\n  David Hall [ctb],\n  David Hugh-Jones [ctb],\n  David Robinson [ctb],\n  Doug Hemken [ctb],\n  Duncan Murdoch [ctb],\n  Elio Campitelli [ctb],\n  Ellis Hughes [ctb],\n  Emily Riederer [ctb],\n  Fabian Hirschmann [ctb],\n  Fitch Simeon [ctb],\n  Forest Fang [ctb],\n  Frank E Harrell Jr [ctb] (the Sweavel package at inst/misc/Sweavel.sty),\n  Garrick Aden-Buie [ctb],\n  Gregoire Detrez [ctb],\n  Hadley Wickham [ctb],\n  Hao Zhu [ctb],\n  Heewon Jeon [ctb],\n  Henrik Bengtsson [ctb],\n  Hiroaki Yutani [ctb],\n  Ian Lyttle [ctb],\n  Hodges Daniel [ctb],\n  Jacob Bien [ctb],\n  Jake Burkhead [ctb],\n  James Manton [ctb],\n  Jared Lander [ctb],\n  Jason Punyon [ctb],\n  Javier Luraschi [ctb],\n  Jeff Arnold [ctb],\n  Jenny Bryan [ctb],\n  Jeremy Ashkenas [ctb, cph] (the CSS file at\n    inst/misc/docco-classic.css),\n  Jeremy Stephens [ctb],\n  Jim Hester [ctb],\n  Joe Cheng [ctb],\n  Johannes Ranke [ctb],\n  John Honaker [ctb],\n  John Muschelli [ctb],\n  Jonathan Keane [ctb],\n  JJ Allaire [ctb],\n  Johan Toloe [ctb],\n  Jonathan Sidi [ctb],\n  Joseph Larmarange [ctb],\n  Julien Barnier [ctb],\n  Kaiyin Zhong [ctb],\n  Kamil Slowikowski [ctb],\n  Karl Forner [ctb],\n  Kevin K. Smith [ctb],\n  Kirill Mueller [ctb],\n  Kohske Takahashi [ctb],\n  Lorenz Walthert [ctb],\n  Lucas Gallindo [ctb],\n  Marius Hofert [ctb],\n  Martin Modrák [ctb],\n  Michael Chirico [ctb],\n  Michael Friendly [ctb],\n  Michal Bojanowski [ctb],\n  Michel Kuhlmann [ctb],\n  Miller Patrick [ctb],\n  Nacho Caballero [ctb],\n  Nick Salkowski [ctb],\n  Niels Richard Hansen [ctb],\n  Noam Ross [ctb],\n  Obada Mahdi [ctb],\n  Pavel N. Krivitsky [ctb] (<https://orcid.org/0000-0002-9101-3362>),\n  Pedro Faria [ctb],\n  Qiang Li [ctb],\n  Ramnath Vaidyanathan [ctb],\n  Richard Cotton [ctb],\n  Robert Krzyzanowski [ctb],\n  Rodrigo Copetti [ctb],\n  Romain Francois [ctb],\n  Ruaridh Williamson [ctb],\n  Sagiru Mati [ctb] (<https://orcid.org/0000-0003-1413-3974>),\n  Scott Kostyshak [ctb],\n  Sebastian Meyer [ctb],\n  Sietse Brouwer [ctb],\n  Simon de Bernard [ctb],\n  Sylvain Rousseau [ctb],\n  Taiyun Wei [ctb],\n  Thibaut Assus [ctb],\n  Thibaut Lamadon [ctb],\n  Thomas Leeper [ctb],\n  Tim Mastny [ctb],\n  Tom Torsney-Weir [ctb],\n  Trevor Davis [ctb],\n  Viktoras Veitas [ctb],\n  Weicheng Zhu [ctb],\n  Wush Wu [ctb],\n  Zachary Foster [ctb],\n  Zhian N. Kamvar [ctb] (<https://orcid.org/0000-0003-1458-7108>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2024-11-08 09:30:02 UTC",
-        "Built": "R 4.4.2; ; 2024-12-01 02:21:03 UTC; windows"
+        "Built": "R 4.4.0; ; 2024-11-09 04:40:32 UTC; windows",
+        "RemoteType": "cran",
+        "RemotePkgRef": "cran::knitr",
+        "RemoteRef": "cran::knitr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteSha": "1.49"
       }
     },
     "lifecycle": {
@@ -677,11 +683,11 @@
       }
     },
     "rlang": {
-      "Source": "CRAN",
+      "Source": "P3M",
       "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "rlang",
-        "Version": "1.1.4",
+        "Version": "1.1.5",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@posit.co\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@posit.co\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"Posit, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
@@ -693,19 +699,25 @@
         "Suggests": "cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,\nmethods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,\nusethis, vctrs (>= 0.2.3), withr",
         "Enhances": "winch",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.1",
+        "RoxygenNote": "7.3.2",
         "URL": "https://rlang.r-lib.org, https://github.com/r-lib/rlang",
         "BugReports": "https://github.com/r-lib/rlang/issues",
         "Config/testthat/edition": "3",
         "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2024-05-31 12:46:04 UTC; lionel",
+        "Packaged": "2025-01-17 08:43:17 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  Posit, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-06-04 09:45:03 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:30 UTC; windows",
-        "Archs": "x64"
+        "Repository": "RSPM",
+        "Date/Publication": "2025-01-17 14:30:02 UTC",
+        "Built": "R 4.4.0; x86_64-w64-mingw32; 2025-01-18 04:24:53 UTC; windows",
+        "Archs": "x64",
+        "RemoteType": "standard",
+        "RemotePkgRef": "rlang",
+        "RemoteRef": "rlang",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemotePkgPlatform": "i386+x86_64-w64-mingw32",
+        "RemoteSha": "1.1.5"
       }
     },
     "rmarkdown": {
@@ -814,31 +826,41 @@
       }
     },
     "xfun": {
-      "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Source": "github",
+      "Repository": null,
       "description": {
         "Package": "xfun",
         "Type": "Package",
         "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
-        "Version": "0.49",
-        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
+        "Version": "0.50.1",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\", URL = \"https://yihui.org\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
         "Depends": "R (>= 3.2.0)",
         "Imports": "grDevices, stats, tools",
-        "Suggests": "testit, parallel, codetools, methods, rstudioapi, tinytex (>=\n0.30), mime, litedown, commonmark, knitr (>= 1.47), remotes,\npak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,\nrmarkdown",
+        "Suggests": "testit, parallel, codetools, methods, rstudioapi, tinytex (>=\n0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47),\nremotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml,\nqs, rmarkdown",
         "License": "MIT + file LICENSE",
         "URL": "https://github.com/yihui/xfun",
         "BugReports": "https://github.com/yihui/xfun/issues",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.2",
         "VignetteBuilder": "litedown",
+        "Roxygen": "list(markdown = TRUE)",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "xfun",
+        "RemoteUsername": "yihui",
+        "RemotePkgRef": "yihui/xfun",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "a840eb1fdf97b6c61caaa94b3772d36faafbbb9b",
+        "GithubRepo": "xfun",
+        "GithubUsername": "yihui",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "a840eb1fdf97b6c61caaa94b3772d36faafbbb9b",
         "NeedsCompilation": "yes",
-        "Packaged": "2024-10-31 16:27:34 UTC; yihui",
-        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
+        "Packaged": "2025-01-08 14:05:45 UTC; chris",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>,\n    https://yihui.org),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-10-31 18:10:02 UTC",
-        "Built": "R 4.4.2; x86_64-w64-mingw32; 2024-12-01 01:23:32 UTC; windows",
+        "Built": "R 4.4.2; x86_64-w64-mingw32; 2025-01-08 14:05:45 UTC; windows",
         "Archs": "x64"
       }
     },
@@ -874,8 +896,152 @@
     ".travis.yml": {
       "checksum": "1d1a9755c48e657957308c5416471f56"
     },
+    "_book/404.html": {
+      "checksum": "e8b3d71f1818b0169d8bafaad6f15ecf"
+    },
+    "_book/applications.html": {
+      "checksum": "277daa530d1b060e97566dcf5760e58f"
+    },
+    "_book/bookdown-demo.epub": {
+      "checksum": "6e95b23cc6f534ec2d6c56c28ccc5f92"
+    },
+    "_book/bookdown-demo.pdf": {
+      "checksum": "78c84e9ae34d727823827cb6b8310998"
+    },
+    "_book/bookdown-demo.tex": {
+      "checksum": "57b1d04b779211deb78d1e5db980d6ad"
+    },
+    "_book/bookdown-demo_files/figure-html/nice-fig-1.png": {
+      "checksum": "e40791f259a933db281d62585fdf74cf"
+    },
+    "_book/final-words.html": {
+      "checksum": "06b7bf994a7707ae7c77b5a9139c2ea6"
+    },
+    "_book/index.html": {
+      "checksum": "e2b61302c79e36f8928b547ff3e931ab"
+    },
+    "_book/intro.html": {
+      "checksum": "ba8ebdebc992ffa63b663dd9a42a1eed"
+    },
+    "_book/libs/anchor-sections-1.1.0/anchor-sections-hash.css": {
+      "checksum": "cc71c646c089ba898bbfdc599c3b08a1"
+    },
+    "_book/libs/anchor-sections-1.1.0/anchor-sections.css": {
+      "checksum": "fd81c56ce3a57e25675af031c4559784"
+    },
+    "_book/libs/anchor-sections-1.1.0/anchor-sections.js": {
+      "checksum": "1884622a348633e8b7d5db59a84b5df9"
+    },
+    "_book/libs/bootstrap-4.6.0/bootstrap.bundle.min.js": {
+      "checksum": "3b99ea39f62017b556ab9f4d7e1b7263"
+    },
+    "_book/libs/bootstrap-4.6.0/bootstrap.min.css": {
+      "checksum": "78ec76529b1f193fd48061a59d9e9b93"
+    },
+    "_book/libs/bootstrap-4.6.0/fonts/bootstrap/glyphicons-halflings-regular.eot": {
+      "checksum": "f4769f9bdb7466be65088239c12046d1"
+    },
+    "_book/libs/bootstrap-4.6.0/fonts/bootstrap/glyphicons-halflings-regular.svg": {
+      "checksum": "89889688147bd7575d6327160d64e760"
+    },
+    "_book/libs/bootstrap-4.6.0/fonts/bootstrap/glyphicons-halflings-regular.ttf": {
+      "checksum": "e18bbf611f2a2e43afc071aa2f4e1512"
+    },
+    "_book/libs/bootstrap-4.6.0/fonts/bootstrap/glyphicons-halflings-regular.woff": {
+      "checksum": "fa2772327f55d8198301fdb8bcfc8158"
+    },
+    "_book/libs/bootstrap-4.6.0/fonts/bootstrap/glyphicons-halflings-regular.woff2": {
+      "checksum": "448c34a56d699c29117adc64c43affeb"
+    },
+    "_book/libs/bs3compat-0.8.0/bs3compat.js": {
+      "checksum": "52e76360bbf84fcdb1487a6ae47ce4c1"
+    },
+    "_book/libs/bs3compat-0.8.0/tabs.js": {
+      "checksum": "311964552202bcac562800e31324f1d7"
+    },
+    "_book/libs/bs3compat-0.8.0/transition.js": {
+      "checksum": "ec66ef787f321412bd1b0f029da7b39d"
+    },
+    "_book/libs/bs4_book-1.0.0/bs4_book.css": {
+      "checksum": "9330d35c12ba23fa703478545b3eac1e"
+    },
+    "_book/libs/bs4_book-1.0.0/bs4_book.js": {
+      "checksum": "0010db292f4cb11fc43751aa5fbf4d96"
+    },
+    "_book/libs/gitbook-2.6.7/css/fontawesome/fontawesome-webfont.ttf": {
+      "checksum": "b06871f281fee6b241d60582ae9369b9"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-bookdown.css": {
+      "checksum": "511b32706d0828b46237a7cdebf52126"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-clipboard.css": {
+      "checksum": "e4a3bdc1e3d5590f47cbac67976f3961"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-fontsettings.css": {
+      "checksum": "ddba6e8649d659db2ca0e963ee4b76fb"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-highlight.css": {
+      "checksum": "bd8308dfb2f6b1f91838d5c6186138e1"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-search.css": {
+      "checksum": "0d7a6bb6a50e00c7358cf61027f099f0"
+    },
+    "_book/libs/gitbook-2.6.7/css/plugin-table.css": {
+      "checksum": "8cb82f94ce1446fa4bafe7a3933e6c65"
+    },
+    "_book/libs/gitbook-2.6.7/css/style.css": {
+      "checksum": "8ca22ea18b283f8df1cdd191c2c6646f"
+    },
+    "_book/libs/gitbook-2.6.7/js/app.min.js": {
+      "checksum": "395a8093ce46450cabfaa545a0705a3b"
+    },
+    "_book/libs/gitbook-2.6.7/js/clipboard.min.js": {
+      "checksum": "be72101c8c16ba95fd8b69760d5ebc56"
+    },
+    "_book/libs/gitbook-2.6.7/js/jquery.highlight.js": {
+      "checksum": "999424d32e03b9857098d2c7f53928c2"
+    },
+    "_book/libs/gitbook-2.6.7/js/plugin-bookdown.js": {
+      "checksum": "36b5487b9c1020c0de1352b8f26b8a8e"
+    },
+    "_book/libs/gitbook-2.6.7/js/plugin-clipboard.js": {
+      "checksum": "1b9c02dda66377b4fe429c85b58efd6e"
+    },
+    "_book/libs/gitbook-2.6.7/js/plugin-fontsettings.js": {
+      "checksum": "4f57689705fdfa3eabfb7b7b92614f33"
+    },
+    "_book/libs/gitbook-2.6.7/js/plugin-search.js": {
+      "checksum": "a906e04e1fc7aa9e057f3de4668f4a68"
+    },
+    "_book/libs/gitbook-2.6.7/js/plugin-sharing.js": {
+      "checksum": "e2b65328457b1e2b16c46a0fd4f2852c"
+    },
+    "_book/libs/jquery-3.6.0/jquery-3.6.0.min.js": {
+      "checksum": "8fb8fee4fcc3cc86ff6c724154c49c42"
+    },
+    "_book/literature.html": {
+      "checksum": "47fe8ebbf45c196d0e9f3bbfab7c7f92"
+    },
+    "_book/methods.html": {
+      "checksum": "6f86a32de2247c8fcb01109b4744fafd"
+    },
+    "_book/references.html": {
+      "checksum": "08d5818baae7f061d2bf7dcd8808fc63"
+    },
+    "_book/search.json": {
+      "checksum": "1dae81b531433317aa1c0415e97a7bbc"
+    },
+    "_book/search_index.json": {
+      "checksum": "905292186a630ff819ec1329e07d1a6c"
+    },
+    "_book/style.css": {
+      "checksum": "0685a61954d17298eb8a27d7f3e4e8ae"
+    },
     "_bookdown.yml": {
       "checksum": "a08ecaf2b2a72351a12dc566177dca60"
+    },
+    "_bookdown_files/bookdown-demo_files/figure-html/nice-fig-1.png": {
+      "checksum": "e40791f259a933db281d62585fdf74cf"
     },
     "_build.sh": {
       "checksum": "a199088777c40e9c69523ca0002eb0c2"
@@ -884,7 +1050,7 @@
       "checksum": "2af06fd99f634b064aac023d26fa3a77"
     },
     "_output.yml": {
-      "checksum": "7e80973df3fc76943bcac762b75b2a77"
+      "checksum": "43bde7f8d98699dcf698162e023a13c5"
     },
     "_publish.R": {
       "checksum": "5b6dd09c0d4238d23af86b89e8c35fd0"
@@ -910,6 +1076,9 @@
     "book.bib": {
       "checksum": "68d05c8cbb6ec2384275047db3930351"
     },
+    "bookdown-demo.Rmd": {
+      "checksum": "e687f0103264e50ac743b5e3d675f264"
+    },
     "DESCRIPTION": {
       "checksum": "a09bad3acccdf0d8a134c6e27156b851"
     },
@@ -917,13 +1086,16 @@
       "checksum": "a74b14f585be942c4a459b08ae21d5d3"
     },
     "index.Rmd": {
-      "checksum": "c578c3ea01bc25407babac0d94181c41"
+      "checksum": "36adb5731d20e9de6741c48a57a4661a"
     },
     "LICENSE": {
       "checksum": "65a00da711ad054ad2b8ed8ab826791b"
     },
     "now.json": {
       "checksum": "bf2ea5e8f3e9b688970e0f504fb51348"
+    },
+    "packages.bib": {
+      "checksum": "7d09e9d47a791a69017073de450fe54c"
     },
     "preamble.tex": {
       "checksum": "55488e3ea14e91dfb6bd80b4ce82e364"
